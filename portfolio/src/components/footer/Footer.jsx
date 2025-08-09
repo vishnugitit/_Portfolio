@@ -34,7 +34,7 @@ const Footer = () => {
             className="footer__social-link"
             target="_blank"
           >
-            <i class="bx bxl facebook"></i>
+            <i class='bx bxl-facebook'></i>
           </a>
           {/* = = = = = Instagram = = = =  = */}
           <a

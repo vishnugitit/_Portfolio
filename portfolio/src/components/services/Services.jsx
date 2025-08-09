@@ -152,6 +152,7 @@ const Services = () => {
           </div>
           <span className="services__button"onClick={() => toggleTab(3)}>
             View More
+            <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
           <div className={
               toggleState === 3
