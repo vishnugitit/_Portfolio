@@ -7,7 +7,9 @@ const Data = () => {
       <h1 className="home__title">
         Vishnu
         {/* <svg>
+
             send
+            
             </svg> */}
       </h1>
       {/* .home__education */}
@@ -21,7 +23,9 @@ const Data = () => {
       <a href="#contact" className="button button--flex">
         Say Hello
             {/* <svg>
+
                 hand  36.00
+
             </svg> */}
       </a>
     </div>

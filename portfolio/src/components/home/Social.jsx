@@ -11,7 +11,7 @@ const Social = () => {
       >
         <i class="uil uil-instagram"></i>
       </a>
-      {/* = = = = = Web = = = =  = */}
+      {/* = = = = = LinkedIn = = = =  = */}
       <a
         href="https://www.linkedin.com/in/vishnu-vardhan-jangam-a04550258/"
         className="home__social-icon"
