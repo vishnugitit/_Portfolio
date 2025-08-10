@@ -46,8 +46,8 @@
   height: 1px;
   background-color: var(--text-color);
   /* background-color: red; */
-  left: 0;
-  top: 1rem;
+  left: 1rem;
+  top: 2.5rem;
 }
 
 .home__description {
@@ -122,6 +122,7 @@
   .home__subtitle {
     padding-left: 3.75rem;
     margin-bottom: var(--mb-1);
+    
   }
   .home__subtitle::before {
     width: 42px;
