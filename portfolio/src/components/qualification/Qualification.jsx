@@ -50,12 +50,12 @@ const Qualification = () => {
             {/* SET 1 */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web design</h3>
+                <h3 className="qualification__title">M. Tech</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  xyz - Institute
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2021 - Present
+                  <i className="uil uil-calendar-alt"></i>2026 - Present
                 </div>
               </div>
               <div>
@@ -71,12 +71,12 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">B .Tech</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  JNTUA - Institute
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2020 - 2021
+                  <i className="uil uil-calendar-alt"></i>2020 - 2024
                 </div>
               </div>
             </div>
@@ -84,9 +84,9 @@ const Qualification = () => {
             {/* SET 3 */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
+                <h3 className="qualification__title">Intermediate</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Sree Chaitanaya - Institute
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>2018 - 2020
@@ -105,12 +105,12 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">UX Expert</h3>
+                <h3 className="qualification__title">SSC</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Ravindra Bharathi -School
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2017 - 2018
+                  <i className="uil uil-calendar-alt"></i>2017-2018
                 </div>
               </div>
             </div>
@@ -128,10 +128,10 @@ const Qualification = () => {
           {/* SET 1 */}
           <div className="qualification__data">
             <div>
-              <h3 className="qualification__title">Product Designer</h3>
-              <span className="qualification__subtitle">Microsoft - Spain</span>
+              <h3 className="qualification__title">Data Scientist</h3>
+              <span className="qualification__subtitle">xyz - location</span>
               <div className="qualification__calendar">
-                <i className="uil uil-calendar-alt"></i>2021 - Present
+                <i className="uil uil-calendar-alt"></i>2030 - Present
               </div>
             </div>
             <div>
@@ -147,10 +147,10 @@ const Qualification = () => {
               <span className="qualification__line"></span>
             </div>
             <div>
-              <h3 className="qualification__title">UX Designer</h3>
-              <span className="qualification__subtitle">Apple Inc - Spain</span>
+              <h3 className="qualification__title">Data Analyst</h3>
+              <span className="qualification__subtitle">xyz - location</span>
               <div className="qualification__calendar">
-                <i className="uil uil-calendar-alt"></i>2020 - 2021
+                <i className="uil uil-calendar-alt"></i>2028 - 2030
               </div>
             </div>
           </div>
@@ -158,10 +158,10 @@ const Qualification = () => {
           {/* SET 3 */}
           <div className="qualification__data">
             <div>
-              <h3 className="qualification__title">Web Designer</h3>
-              <span className="qualification__subtitle">Figma - Spain</span>
+              <h3 className="qualification__title">Web Developer</h3>
+              <span className="qualification__subtitle">xyz - location</span>
               <div className="qualification__calendar">
-                <i className="uil uil-calendar-alt"></i>2018 - 2020
+                <i className="uil uil-calendar-alt"></i>2026 - 2028
               </div>
             </div>
             <div>
@@ -177,10 +177,10 @@ const Qualification = () => {
               <span className="qualification__line"></span>
             </div>
             <div>
-              <h3 className="qualification__title">App Developer</h3>
-              <span className="qualification__subtitle">Adobe - Spain</span>
+              <h3 className="qualification__title">QA Engineer</h3>
+              <span className="qualification__subtitle">xyz - location</span>
               <div className="qualification__calendar">
-                <i className="uil uil-calendar-alt"></i>2017 - 2018
+                <i className="uil uil-calendar-alt"></i>2025 - 2026
               </div>
             </div>
           </div>

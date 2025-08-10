@@ -5,17 +5,18 @@ const Data = () => {
     <div className="home__data">
       {/* .home__name */}
       <h1 className="home__title">
-        John Smith
+        Vishnu
         {/* <svg>
             send
             </svg> */}
       </h1>
       {/* .home__education */}
-      <h3 className="home__subtitle">Visual Designer</h3>
+      <h3 className="home__subtitle">Software Developer</h3>
       {/* .home__description */}
       <p className="home__description">
-        I'm creative designer based in New York, and I'm very passionate and
-        dedicated to my work.
+       "Software is a great combination of artistry and engineering."
+       {/* "Any fool can write code that a computer can understand.
+        Good programmers write code that humans can understand" */}
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

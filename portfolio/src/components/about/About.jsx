@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/John-Cv.pdf";
+import AboutImg from "../../assets/about.jpeg";
+import CV from "../../assets/J_Vishnu_resume.pdf";
 import Info from "./Info";
 // import CV from "../../assets/Smith-Cv.pdf"
 const About = () => {
@@ -20,9 +20,19 @@ const About = () => {
           <Info />
           {/* .about__description */}
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
+            Frontend developer, I am passionate about creating interactive and
+            beautiful user interfaces, along with the required functionalities
+            on the front end.One of my favourite technologies to work with is
+            React.js, particularly within the MERN stack.
+            {/* I have years of experience and many clients are happy with the
             projects carried out.
+            
+             I am a front-end developer. I am skilled in
+            Search Engine Optimization, Express.js, React.js, and JavaScript. I
+            am passionate about creating interactive and beautiful user
+            interfaces, along with the required functionalities on the front
+            end.One of my favourite technologies to work with is React.js,
+            particularly within the MERN stack. */}
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV

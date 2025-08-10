@@ -14,9 +14,9 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">user@gmail.com</span>
-              <a href="mailto:examplemail@gmail.com.com" className="contact__button">
-                Write me{" "}
+              <span className="contact__card-data">vishnu.jangam117@gmail.com</span>
+              <a href="mailto:vishnu.jangam117@gmail.com" className="contact__button">
+                Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -26,10 +26,10 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">999-888-777</span>
-              <a href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!
+              <span className="contact__card-data">+91 79890 06946</span>
+              <a href="https://api.whatsapp.com/send?phone=7989006946&text=Hello, more information!
 " className="contact__button">
-                Write me{" "}
+                Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -38,10 +38,9 @@ const Contact = () => {
 
             <div className="contact__card">
               <i className="bx bxl-messenger contact__card-icon"></i>
-              <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">user.fb123</span>
-              <a href="https://m.me/crypticalcoder
-" className="contact__button">
+              <h3 className="contact__card-title">LinkedIn</h3>
+              <span className="contact__card-data">VISHNU VARDHAN JANGAM</span>
+              <a href="https://www.linkedin.com/in/vishnu-vardhan-jangam-a04550258/" className="contact__button">
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
