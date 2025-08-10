@@ -30,7 +30,7 @@ const Footer = () => {
             {/* .footer__social-link */}
           {/* = = = = = Facebook = = = =  = */}
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/share/1AsFgxqC6p"
             className="footer__social-link"
             target="_blank"
           >
@@ -46,7 +46,7 @@ const Footer = () => {
           </a>
           {/* = = = = = Twitter = = = =  = */}
           <a
-            href="https://twitter.com/"
+            href="https://x.com/vishnu_jan99907"
             className="footer__social-link"
             target="_blank"
           >

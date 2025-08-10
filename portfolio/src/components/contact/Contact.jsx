@@ -34,10 +34,13 @@ const Contact = () => {
               </a>
             </div>
 
-            {/* Set 3 Messenger */}
+            {/* Set 3 LinkedIn */}
 
             <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
+              {/* <i className="bx bxl-messenger contact__card-icon"></i> */}
+
+               {/* <i class="fab fa-linkedin contact-icon"></i> */}
+               <i className="fab fa-linkedin contact-icon"></i>
               <h3 className="contact__card-title">LinkedIn</h3>
               <span className="contact__card-data">VISHNU VARDHAN JANGAM</span>
               <a href="https://www.linkedin.com/in/vishnu-vardhan-jangam-a04550258/" className="contact__button">

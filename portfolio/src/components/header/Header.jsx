@@ -13,6 +13,7 @@ const Header = () => {
   const [Toogle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
   return (
+    
     <header className="header">
       <nav className="nav container">
         {/* Smith */}
@@ -21,10 +22,11 @@ const Header = () => {
         </a>
 
         <div className={Toogle ? "nav__menu show-menu" : "nav__menu"}>
+          
           <ul className="nav__list grid">
             {/* Home */}
             <li className="nav__item">
-              <a
+              <a 
                 href="#home"
                 onClick={() => setActiveNav("#home")}
                 className={
