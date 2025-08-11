@@ -45,7 +45,6 @@
   width: 70px;
   height: 1px;
   background-color: var(--text-color);
-  /* background-color: red; */
   left: 1rem;
   top: 2.5rem;
 }
@@ -126,7 +125,7 @@
   }
   .home__subtitle::before {
     width: 42px;
-    top: 0.8rem;
+    top: 2.6rem;
   }
   .home__description {
     max-width: initial;

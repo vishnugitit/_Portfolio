@@ -78,6 +78,7 @@ const Contact = () => {
             name="name" 
             className="contact__form-input"
             placeholder="Insert your name"
+            required
              />
             </div>
 
@@ -89,6 +90,7 @@ const Contact = () => {
             name="email" 
             className="contact__form-input"
             placeholder="Insert your email"
+            required
              />
             </div>
 
@@ -101,6 +103,7 @@ const Contact = () => {
            cols="30"
            rows="10"
            placeholder="Write your Project"
+           required
            >
            </textarea>
 
