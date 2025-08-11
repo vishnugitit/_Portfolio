@@ -1,0 +1,10 @@
+.footer__list li a{
+    
+    background-color: var(--title-color);
+    color: var(--container-color);
+    padding: var(--mb-1);
+    border-radius: 15px;
+}
+.footer__list li a:hover{
+    color: var(--container-color);
+}
