@@ -86,7 +86,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Intermediate</h3>
                 <span className="qualification__subtitle">
-                  Sree Chaitanaya - Institute
+                  Sree Chaitanaya
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>2018 - 2020
@@ -107,7 +107,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">SSC</h3>
                 <span className="qualification__subtitle">
-                  Ravindra Bharathi -School
+                  Ravindra Bharathi
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>2017-2018
