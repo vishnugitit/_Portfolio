@@ -17,6 +17,10 @@ import Testnomials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
+
+import Projects from "./components/Projects/Projects";
+
+
 const App = () => {
 
 
@@ -48,6 +52,10 @@ const [loading, setLoading] = useState(true);
         
         <Qualification/>
         <Portfolio/>
+
+        <Projects/>
+
+        
         <Testnomials/>
         <Contact/>
         
