@@ -1,5 +1,11 @@
-import React from 'react';
+import React,{ useState, useEffect } from "react";
 import "./App.css";
+
+
+
+
+import Loader from "./components/Loader/Loader"; // ✅ Import Loader
+
 import Header from "./components/header/Header";
 import Home from './components/home/Home';
 import About from './components/about/About';
@@ -12,8 +18,26 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 const App = () => {
+
+
+const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading (2 seconds)
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />; // ✅ Show loader first
+  }
+
+
+
   return (
     <div>
+
+     
       <Header/>
 
       <main className='main'>
