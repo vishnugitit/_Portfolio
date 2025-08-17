@@ -1,30 +1,25 @@
-import React,{ useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
-
-
-
 
 import Loader from "./components/Loader/Loader"; // ✅ Import Loader
 
 import Header from "./components/header/Header";
-import Home from './components/home/Home';
-import About from './components/about/About';
-import Skills from './components/skills/Skills';
-import Services from './components/services/Services';
-import Portfolio from './components/portfolio/Portfolio';
-import Qualification from './components/qualification/Qualification';
-import Testnomials from './components/testimonials/Testimonials';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
-import ScrollUp from './components/scrollup/ScrollUp';
+import Home from "./components/home/Home";
+import About from "./components/about/About";
+import Skills from "./components/skills/Skills";
+import Services from "./components/services/Services";
 
-import Projects from "./components/Projects/Projects";
+import Qualification from "./components/qualification/Qualification";
 
+import Work from "./components/Work/Work";
+
+import Testnomials from "./components/testimonials/Testimonials";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
+import ScrollUp from "./components/scrollup/ScrollUp";
 
 const App = () => {
-
-
-const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     // Simulate loading (2 seconds)
@@ -36,45 +31,34 @@ const [loading, setLoading] = useState(true);
     return <Loader />; // ✅ Show loader first
   }
 
-
-
   return (
     <div>
+      <Header />
 
-     
-      <Header/>
+      <main className="main">
+        <Home />
+        <About />
+        <Skills />
+        <Services />
 
-      <main className='main'>
-        <Home/>
-        <About/>
-        <Skills/>
-        <Services/>
-        
-        <Qualification/>
-        <Portfolio/>
+        <Qualification />
 
-        <Projects/>
+        <Work />
+        {/* 
+        <Portfolio/> */}
 
-        
-        <Testnomials/>
-        <Contact/>
-        
+        {/* <Projects/> */}
+
+        <Testnomials />
+        <Contact />
       </main>
-      <Footer/>
-      <ScrollUp/>
+      <Footer />
+      <ScrollUp />
     </div>
-  )
-}
+  );
+};
 
-export default App
-
-
-
-
-
-
-
-
+export default App;
 
 // -----------------------------------------------------------
 // import { useState } from 'react'
