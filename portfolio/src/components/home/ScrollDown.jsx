@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./scroll.css"
 const ScrollDown = () => {
   return (
     <div className="home__scroll">
@@ -12,7 +12,7 @@ Scroll      46.00
           width="34px"
           height="34px"
           viewBox="0 0 24 24"
-          fill="none"
+          // fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>

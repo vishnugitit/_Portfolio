@@ -1,0 +1,9 @@
+/* svg{
+    fill: var(--body-color);
+} */
+ span svg{
+fill: var(--title-color-dark);
+ }
+.scroll{
+    fill: none;
+}

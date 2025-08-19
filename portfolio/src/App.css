@@ -15,6 +15,16 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
+--btn-color: white;
+--border-layout:1px solid rgba(0, 0, 0, 0.1);
+--border-background: #fff;
+/* --btn:white; */
+ /* Additional */
+  --nav-bg:#f4f4f4;
+  --button-bg:#ffff;
+
+
+
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -49,6 +59,49 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+}
+
+/* Dark Theme */
+.dark-theme{
+  background-color: #121212;
+  color: #ffff;
+  /* Additional */
+  --nav-bg:#1f1f1f;
+  --button-bg:#333333;
+
+  /* Colors */
+    --title-color: #ffff;
+  --title-color-dark: #ffff;
+  --text-color: #ffff;
+  --body-color: #ffff;
+  --container-color:#121212;
+  /* --container-color:red; */
+  --body-color:#121212;
+  --btn-color:white;
+  --border-layout:1px solid white;
+  --border-background: linear-gradient(135deg, #1e1e1e, #0d1117);
+}
+
+body{
+  background-color: var(--bg-color);
+  color:var(--text-color);
+  transition: #121212 0.3s ease, color 0.3s ease;
+}
+/* nav{
+  background-color: var(--nav-bg);
+  padding: 1rem;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+} */
+
+.theme-toggle{
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: var(--border-layout);
+  background-color: var(--button-bg);
+  color: var(--text-color);
+  cursor: pointer;
 }
 
 /* Responsive typography */

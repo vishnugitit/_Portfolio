@@ -12,7 +12,6 @@
     cursor: pointer;
     color: var(--title-color);
     padding: 0.25rem 0.75rem;
-   
     font-weight: var(--font-medium);
     border-radius: 0.5rem;
     text-transform: capitalize;
@@ -29,8 +28,10 @@
   justify-content: center;
 }
 .work__card {
-  background-color: var(--container-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* background-color: var(--container-color); */
+  background-color: var(--border-background);
+  /* border: 1px solid rgba(0, 0, 0, 0.1); */
+  border: var(--border-layout);
   padding: 1.25rem;
   border-radius: 1rem;
 }

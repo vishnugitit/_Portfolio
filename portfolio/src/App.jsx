@@ -21,6 +21,8 @@ import ScrollUp from "./components/scrollup/ScrollUp";
 const App = () => {
   const [loading, setLoading] = useState(true);
 
+  const [theme, setTheme]=useState("light");
+
   useEffect(() => {
     // Simulate loading (2 seconds)
     const timer = setTimeout(() => setLoading(false), 2000);
@@ -31,9 +33,28 @@ const App = () => {
     return <Loader />; // ✅ Show loader first
   }
 
+// Toggle Theme
+const toggleTheme=()=>{
+  if(theme==="light"){
+    setTheme("dark");
+    document.body.classList.add("dark-theme");
+    localStorage.setItem("theme", "dark");
+  }
+  else{
+    setTheme("light");
+    document.body.classList.remove("dark-theme");
+    localStorage.setItem("theme", "light")
+  }
+}
+
+
+
+
+
   return (
     <div>
-      <Header />
+      
+      <Header theme={theme} toggleTheme={toggleTheme}/>
 
       <main className="main">
         <Home />

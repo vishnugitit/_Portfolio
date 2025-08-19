@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./data.css"
 const Data = () => {
   return (
     <div className="home__data">
@@ -13,7 +13,9 @@ const Data = () => {
            
       <h3 className="home__subtitle">
         Software Developer <span> <svg
-          fill="#000000"
+
+          // fill="pink"
+          className="message"
           version="1.1"
           id="Layer_1"
           xmlns="http://www.w3.org/2000/svg"
@@ -52,10 +54,11 @@ const Data = () => {
 
             </svg> */}
         <svg
+        className="scroll"
           width="30px"
           height="30px"
           viewBox="0 0 24 24"
-          fill="none"
+          // fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -72,6 +75,7 @@ const Data = () => {
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
+              color="pink"
             ></path>{" "}
           </g>
         </svg>
