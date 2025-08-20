@@ -50,7 +50,7 @@ const Qualification = () => {
             {/* SET 1 */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">M. Tech</h3>
+                <h3 className="qualification__title"><span className="education__icon">🎓</span> M. Tech</h3>
                 <span className="qualification__subtitle">
                   xyz - Institute
                 </span>
@@ -71,7 +71,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">B .Tech</h3>
+                <h3 className="qualification__title"><span className="education__icon">🎓</span> B .Tech</h3>
                 <span className="qualification__subtitle">
                   JNTUA - Institute
                 </span>
@@ -84,7 +84,7 @@ const Qualification = () => {
             {/* SET 3 */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Intermediate</h3>
+                <h3 className="qualification__title"><span className="education__icon">🏫</span> Intermediate</h3>
                 <span className="qualification__subtitle">
                   Sree Chaitanaya
                 </span>
@@ -105,7 +105,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">SSC</h3>
+                <h3 className="qualification__title"><span className="education__icon">📘</span> SSC</h3>
                 <span className="qualification__subtitle">
                   Ravindra Bharathi
                 </span>

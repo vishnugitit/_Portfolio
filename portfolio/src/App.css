@@ -22,6 +22,7 @@
  /* Additional */
   --nav-bg:#f4f4f4;
   --button-bg:#ffff;
+  --education-icon:orange;
 
 
 
@@ -80,6 +81,7 @@
   --btn-color:white;
   --border-layout:1px solid white;
   --border-background: linear-gradient(135deg, #1e1e1e, #0d1117);
+  --education-icon: yellow;
 }
 
 body{
