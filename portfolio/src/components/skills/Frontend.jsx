@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./frontend.css"
 const Frontend = () => {
   return (
     <div className="skills__content">
@@ -8,7 +8,7 @@ const Frontend = () => {
         {/* SET 1 */}
         <div className="skills__group">
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check" id="language"></i>
             <div>
                 {/* .skills__name | .skills__level */}
               <h3 className="skills__name">HTML</h3>
@@ -17,7 +17,7 @@ const Frontend = () => {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check" id="language"></i>
             <div>
               <h3 className="skills__name">CSS</h3>
               <span className="skills__level">Advanced</span>
@@ -25,7 +25,7 @@ const Frontend = () => {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check" id="language"></i>
             <div>
               <h3 className="skills__name">JavaScript</h3>
               <span className="skills__level">Intermediate</span>
@@ -35,7 +35,7 @@ const Frontend = () => {
 {/* SET 2 */}
          <div className="skills__group">
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check" id="language"></i>
             <div>
               <h3 className="skills__name">Bootstrap</h3>
               <span className="skills__level">Intermediate</span>
@@ -43,7 +43,7 @@ const Frontend = () => {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check" id="language"></i>
             <div>
               <h3 className="skills__name">Git</h3>
               <span className="skills__level">Intermediate</span>
@@ -51,7 +51,7 @@ const Frontend = () => {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check" id="language"></i>
             <div>
               <h3 className="skills__name">React</h3>
               <span className="skills__level">Intermediate</span>

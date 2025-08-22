@@ -1,0 +1,19 @@
+#insta_logo {
+  /* background: linear-gradient(45deg, #feda77, #fa7e1e, #d62976, #962fbf, #4f5bd5); */
+
+  background-color: #ffffff;
+  color: #d93025;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+}
+#linkedin_logo {
+  background-color: white;
+  color: blue;
+  font-size: 1.5rem;
+}
+#github_logo {
+  background-color: #ffffff;
+  color: black;
+  font-size: 1.5rem;
+  border-radius: 0.3rem;
+}

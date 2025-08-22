@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./social.css"
 const Social = () => {
   return (
     <div className="home__social">
@@ -9,7 +9,7 @@ const Social = () => {
         className="home__social-icon"
         target="_blank"
       >
-        <i class="uil uil-instagram"></i>
+        <i class="uil uil-instagram" id="insta_logo"></i>
       </a>
       {/* = = = = = LinkedIn = = = =  = */}
       <a
@@ -18,7 +18,7 @@ const Social = () => {
         target="_blank"
       >
         {/* <i class="uil uil-dribbble"></i> */}
-        <i className="fab fa-linkedin contact-icon"></i>
+        <i className="fab fa-linkedin contact-icon" id="linkedin_logo"></i>
       </a>
       {/* = = = = = Github = = = =  = */}
       <a
@@ -26,7 +26,7 @@ const Social = () => {
         className="home__social-icon"
         target="_blank"
       >
-        <i class="uil uil-github-alt"></i>
+        <i class="uil uil-github-alt" id="github_logo"></i>
       </a>
     </div>
   );

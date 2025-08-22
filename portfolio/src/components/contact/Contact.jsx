@@ -48,7 +48,7 @@ const Contact = () => {
           <div className="contact__info">
             {/* Set 1 Email*/}
             <div className="contact__card">
-              <i className="bx bx-mail-send contact__card-icon"></i>
+              <i className="bx bx-mail-send contact__card-icon" id="email"></i>
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">
                 vishnu.jangam117@gmail.com
@@ -65,7 +65,7 @@ const Contact = () => {
             {/* Set 2 WhatsApp*/}
 
             <div className="contact__card">
-              <i className="bx bxl-whatsapp contact__card-icon"></i>
+              <i className="bx bxl-whatsapp contact__card-icon" id="whatsapp"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">+91 79890 06946</span>
               <a
@@ -84,7 +84,7 @@ const Contact = () => {
               {/* <i className="bx bxl-messenger contact__card-icon"></i> */}
 
               {/* <i class="fab fa-linkedin contact-icon"></i> */}
-              <i className="fab fa-linkedin contact-icon"></i>
+              <i className="fab fa-linkedin contact-icon" id="linkedin"></i>
               <h3 className="contact__card-title">LinkedIn</h3>
               <span className="contact__card-data">VISHNU VARDHAN JANGAM</span>
               <a

@@ -16,7 +16,6 @@
 .about__box {
   /* background-color: var(--container-color); */
  background-color:var(--border-background);
-  /* border: 2px solid red; */
   /* border: 1px solid rgba(0, 0, 0, 0.1); */
   border:var(--border-layout);
   border-radius: 0.75rem;
