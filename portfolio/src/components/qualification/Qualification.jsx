@@ -20,7 +20,8 @@ const Qualification = () => {
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
-            onClick={()=>toggleTab(1)}
+            onClick={() => toggleTab(1)}
+            id="education"
           >
             <i className="uil uil-graduation-cap qualification__icon"></i>
             Education
@@ -32,7 +33,8 @@ const Qualification = () => {
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
-            onClick={()=>toggleTab(2)}
+            onClick={() => toggleTab(2)}
+            id="experience"
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
             Experience
@@ -50,10 +52,10 @@ const Qualification = () => {
             {/* SET 1 */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title"><span className="education__icon">🎓</span> M. Tech</h3>
-                <span className="qualification__subtitle">
-                  xyz - Institute
-                </span>
+                <h3 className="qualification__title">
+                  <span className="education__icon">🎓</span> M. Tech
+                </h3>
+                <span className="qualification__subtitle">xyz - Institute</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>2026 - Present
                 </div>
@@ -71,7 +73,9 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title"><span className="education__icon">🎓</span> B .Tech</h3>
+                <h3 className="qualification__title">
+                  <span className="education__icon">🎓</span> B .Tech
+                </h3>
                 <span className="qualification__subtitle">
                   JNTUA - Institute
                 </span>
@@ -84,10 +88,10 @@ const Qualification = () => {
             {/* SET 3 */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title"><span className="education__icon">🏫</span> Intermediate</h3>
-                <span className="qualification__subtitle">
-                  Sree Chaitanaya
-                </span>
+                <h3 className="qualification__title">
+                  <span className="education__icon">🏫</span> Intermediate
+                </h3>
+                <span className="qualification__subtitle">Sree Chaitanaya</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>2018 - 2020
                 </div>
@@ -105,7 +109,9 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title"><span className="education__icon">📘</span> SSC</h3>
+                <h3 className="qualification__title">
+                  <span className="education__icon">📘</span> SSC
+                </h3>
                 <span className="qualification__subtitle">
                   Ravindra Bharathi
                 </span>
@@ -118,73 +124,81 @@ const Qualification = () => {
         </div>
         {/* Part -2 */}
         <div className="qualification__sections">
-        <div
-          className={
-            toggleState === 2
-              ? "qualification__content qualification__content-active"
-              : "qualification__content"
-          }
-        >
-          {/* SET 1 */}
-          <div className="qualification__data">
-            <div>
-              <h3 className="qualification__title">Data Scientist</h3>
-              <span className="qualification__subtitle">xyz - location</span>
-              <div className="qualification__calendar">
-                <i className="uil uil-calendar-alt"></i>2030 - Present
+          <div
+            className={
+              toggleState === 2
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
+            }
+          >
+            {/* SET 1 */}
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  <span className="education__icon">📈</span> Data Scientist
+                </h3>
+                <span className="qualification__subtitle">xyz - location</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>2030 - Present
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
-            <div>
-              <span className="qualification__rounder"></span>
-              <span className="qualification__line"></span>
-            </div>
-          </div>
-          {/* SET - 2 */}
-          <div className="qualification__data">
-            <div></div>
-            <div>
-              <span className="qualification__rounder"></span>
-              <span className="qualification__line"></span>
-            </div>
-            <div>
-              <h3 className="qualification__title">Data Analyst</h3>
-              <span className="qualification__subtitle">xyz - location</span>
-              <div className="qualification__calendar">
-                <i className="uil uil-calendar-alt"></i>2028 - 2030
+            {/* SET - 2 */}
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">
+                  <span className="education__icon">📉</span> Data Analyst
+                </h3>
+                <span className="qualification__subtitle">xyz - location</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>2028 - 2030
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* SET 3 */}
-          <div className="qualification__data">
-            <div>
-              <h3 className="qualification__title">Web Developer</h3>
-              <span className="qualification__subtitle">xyz - location</span>
-              <div className="qualification__calendar">
-                <i className="uil uil-calendar-alt"></i>2026 - 2028
+            {/* SET 3 */}
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  <span className="education__icon">🌍</span> Web Developer
+                </h3>
+                <span className="qualification__subtitle">xyz - location</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>2026 - 2028
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
-            <div>
-              <span className="qualification__rounder"></span>
-              <span className="qualification__line"></span>
-            </div>
-          </div>
-          {/* SET - 4 */}
-          <div className="qualification__data">
-            <div></div>
-            <div>
-              <span className="qualification__rounder"></span>
-              <span className="qualification__line"></span>
-            </div>
-            <div>
-              <h3 className="qualification__title">QA Engineer</h3>
-              <span className="qualification__subtitle">xyz - location</span>
-              <div className="qualification__calendar">
-                <i className="uil uil-calendar-alt"></i>2025 - 2026
+            {/* SET - 4 */}
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">
+                  <span className="education__icon">🔍</span> QA Engineer
+                </h3>
+                <span className="qualification__subtitle">xyz - location</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>2025 - 2026
+                </div>
               </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </section>

@@ -16,13 +16,13 @@ const Services = () => {
         <div className="services__content">
           <div>
             {/* .services__title */}
-            <i className="uil uil-web-grid services__icon"></i>
+            <i className="uil uil-web-grid services__icon" id="software"></i>
             <h3 className="services__title">
               Software <br /> Developer
             </h3>
           </div>
-          <span className="services__button" onClick={() => toggleTab(1)}>
-            View More
+        <span className="services__button" onClick={() => toggleTab(1)}>
+              <button>View More</button>
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
           <div
@@ -33,7 +33,7 @@ const Services = () => {
             }
           >
             <div className="services__modal-content">
-              <i onClick={()=>toggleTab(0)} className="uil uil-times services__modal-close"></i>
+              <i onClick={()=>toggleTab(0)} className="uil uil-times services__modal-close" id="close"></i>
               <h3 className="services__modal-title">Software Developer</h3>
               {/* .services__modal-description */}
               <p className="services__modal-description">
@@ -81,13 +81,13 @@ const Services = () => {
           <div>
             {/* .services__title */}
 
-            <i className="uil uil-arrow services__icon"></i>
+            <i className="uil uil-arrow services__icon" id="web"></i>
             <h3 className="services__title">
               Web <br /> Developer
             </h3>
           </div>
           <span onClick={() => toggleTab(2)}className="services__button">
-            View More
+           <button>View More</button> 
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
           <div className={
@@ -145,13 +145,13 @@ const Services = () => {
         <div className="services__content">
           <div>
             {/* .services__title */}
-            <i className="uil uil-edit services__icon"></i>
+            <i className="uil uil-edit services__icon" id="qa"></i>
             <h3 className="services__title">
               QA <br /> Engineer
             </h3>
           </div>
           <span className="services__button"onClick={() => toggleTab(3)}>
-            View More
+            <button>View More</button>
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
           <div className={

@@ -2,9 +2,7 @@
   width: 750px;
 }
 .testimonial__card {
-  /* background-color: var(--container-color); */
   background-color: var(--border-background);
-  /* border: 1px solid rgba(0, 0, 0, 0.1); */
   border: var(--border-layout);
   padding: 1.5rem 2rem;
   border-radius: 1.5rem;
@@ -19,9 +17,11 @@
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-25);
+  color: var(--content-text);
 }
 .testimonial__description {
   font-size: var(--small-font-size);
+  color: var(--subcontent-text);
 }
 /*  ---------- Swipers Class ----------- */
 /* 56-00 */
@@ -35,18 +35,17 @@
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-  .testimonial__container{
+  .testimonial__container {
     width: initial;
   }
 
-  .testimonial__card{
+  .testimonial__card {
     padding: 1.25rem 1.5rem;
   }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-  
 }
 
 @media screen and (max-width: 576px) {
@@ -54,5 +53,4 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-
 }

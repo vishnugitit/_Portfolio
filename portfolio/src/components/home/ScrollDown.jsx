@@ -48,7 +48,7 @@ Scroll      46.00
         </svg>
         {/* .home__scroll-name */}
         <span className="home__scroll-name">Scroll Down</span>
-        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+        <i class="uil uil-arrow-down home__scroll-arrow" id="scroll"></i>
       </a>
     </div>
   );

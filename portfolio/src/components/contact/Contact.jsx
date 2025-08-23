@@ -1,21 +1,22 @@
-import React, { useRef, useState} from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
 const Contact = () => {
   const form = useRef();
 
-  const [formData, setFormData]=useState({
-    name:"",
-    email:"",
-    project:"",
-  })
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    project: "",
+  });
 
   // Track input changes
-  const handleChange =(e)=>{
+  const handleChange = (e) => {
     setFormData({
-      ...formData,[e.target.name]:e.target.value,
-    })
-  }
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -25,17 +26,14 @@ const Contact = () => {
     });
     e.target.reset();
 
-// Show Alert if all fields are filled
+    // Show Alert if all fields are filled
 
-    const {name, email, project}=formData;
-    if(name.trim() && email.trim() && project.trim()){
-      alert("Data Saved")
+    const { name, email, project } = formData;
+    if (name.trim() && email.trim() && project.trim()) {
+      alert("Data Saved");
     }
-  //  if empty no alerts
+    //  if empty no alerts
   };
-
- 
-
 
   return (
     <section className="contact section" id="contact">
@@ -57,15 +55,18 @@ const Contact = () => {
                 href="mailto:vishnu.jangam117@gmail.com"
                 className="contact__button"
               >
-                Write me
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                <button>Write me
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i></button>
               </a>
             </div>
 
             {/* Set 2 WhatsApp*/}
 
             <div className="contact__card">
-              <i className="bx bxl-whatsapp contact__card-icon" id="whatsapp"></i>
+              <i
+                className="bx bxl-whatsapp contact__card-icon"
+                id="whatsapp"
+              ></i>
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">+91 79890 06946</span>
               <a
@@ -73,8 +74,8 @@ const Contact = () => {
 "
                 className="contact__button"
               >
-                Write me
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                <button>Write me
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i></button>
               </a>
             </div>
 
@@ -91,8 +92,8 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/vishnu-vardhan-jangam-a04550258/"
                 className="contact__button"
               >
-                Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                <button>Write me{" "}
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i></button>
               </a>
             </div>
           </div>
@@ -110,8 +111,8 @@ const Contact = () => {
                 className="contact__form-input"
                 placeholder="Insert your name"
                 required
-              // value={formData.name}
-              onChange={handleChange}
+                // value={formData.name}
+                onChange={handleChange}
               />
             </div>
 
@@ -125,8 +126,8 @@ const Contact = () => {
                 className="contact__form-input"
                 placeholder="Insert your email"
                 required
-              //  value={formData.email}
-              onChange={handleChange}
+                //  value={formData.email}
+                onChange={handleChange}
               />
             </div>
 
@@ -140,12 +141,11 @@ const Contact = () => {
                 rows="10"
                 placeholder="Write your Project"
                 required
-// value={formData.project}
-              onChange={handleChange}
-              
+                // value={formData.project}
+                onChange={handleChange}
               ></textarea>
             </div>
-         
+
             <button className="button button--flex">
               Send Message
               {/* {alert("Message Sent")} */}

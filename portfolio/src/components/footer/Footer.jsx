@@ -27,14 +27,14 @@ const Footer = () => {
           </li>
         </ul>
         <div className="footer__social">
-            {/* .footer__social-link */}
+          {/* .footer__social-link */}
           {/* = = = = = Facebook = = = =  = */}
           <a
             href="https://www.facebook.com/share/1AsFgxqC6p"
             className="footer__social-link"
             target="_blank"
           >
-            <i class='bx bxl-facebook'></i>
+            <i class="bx bxl-facebook" id="facebook"></i>
           </a>
           {/* = = = = = Instagram = = = =  = */}
           <a
@@ -42,7 +42,7 @@ const Footer = () => {
             className="footer__social-link"
             target="_blank"
           >
-            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-instagram" id="instagram"></i>
           </a>
           {/* = = = = = Twitter = = = =  = */}
           <a
@@ -50,13 +50,11 @@ const Footer = () => {
             className="footer__social-link"
             target="_blank"
           >
-            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-twitter" id="twitter"></i>
           </a>
         </div>
 
-        <span className="footer__copy">
-&#169; All rigths reserved
-        </span>
+        <span className="footer__copy">&#169; All rigths reserved</span>
       </div>
     </footer>
   );

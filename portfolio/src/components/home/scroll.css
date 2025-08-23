@@ -1,4 +1,6 @@
 a>svg{
 fill: var(--btn-color);
-/* color: var(--btn); */
+ }
+ #scroll{
+    color: var(--subcontent-text);
  }
