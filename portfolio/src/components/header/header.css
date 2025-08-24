@@ -55,6 +55,32 @@
 .scroll-header {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
+
+ .nav__link {
+  position: relative;
+  /* display: inline-block; */
+  padding-bottom: 3px;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.nav__link.active-link {
+  color: var(--content-text);
+  transition: color 0.3s ease;
+}
+
+.nav__link.active-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;  /*keep inside padding*/
+   left: 0;
+  width: 60%;
+  height: 2px;
+  background-color: var(--subcontent-text);
+  /* border-radius: 2px;  */
+}  
+
 /* = = = = = BREAKPOINTS = = = = = */
 /* For Medium devices */
 @media screen and (max-width: 768px) {
@@ -114,6 +140,12 @@
   .nav__toggle {
     display: block;
   }
+
+ .nav__link.active-link::after{
+  
+height: 0px;
+    width: 0px;
+ }
 }
 
 /* For Small devices */
@@ -125,4 +157,16 @@
   .nav__list {
     column-gap: 0;
   }
+  .nav__link.active-link::after{
+    height: 0px;
+    width: 0px;
+  }
 }
+
+#close__logo{
+  color: #f5f5f5;
+  background-color: red;
+  border-radius: 0.3rem;
+}
+
+

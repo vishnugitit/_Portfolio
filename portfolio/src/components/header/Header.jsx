@@ -12,6 +12,7 @@ const Header = ({ theme, toggleTheme }) => {
   // = = = = = Toogle Menu = = = = =
   const [Toogle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
+  // Track which section is in view using Intersection Observer
   return (
     <header className="header">
       <nav className="nav container">
@@ -19,12 +20,10 @@ const Header = ({ theme, toggleTheme }) => {
         <a href="index.html" className="nav__logo">
           Vishnu
         </a>
-
         {/* Toggle Button */}
         <button className="theme-toggle" onClick={toggleTheme}>
           {theme === "light" ? "🌙 Dark" : "☀️ Light"}
         </button>
-
         <div className={Toogle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             {/* Home */}
@@ -39,7 +38,6 @@ const Header = ({ theme, toggleTheme }) => {
                 <i className="uil uil-estate nav__icon"></i> Home
               </a>
             </li>
-
             {/* About */}
             <li className="nav__item">
               <a
@@ -52,7 +50,6 @@ const Header = ({ theme, toggleTheme }) => {
                 <i className="uil uil-user nav__icon"></i>About
               </a>
             </li>
-
             {/* Skills */}
             <li className="nav__item">
               <a
@@ -81,7 +78,6 @@ const Header = ({ theme, toggleTheme }) => {
                 <i className="uil uil-briefcase nav__icon"></i>Services
               </a>
             </li>
-
             {/* Portfolio */}
             <li className="nav__item">
               <a
@@ -96,7 +92,6 @@ const Header = ({ theme, toggleTheme }) => {
                 <i className="uil uil-scenery nav__icon"></i>Portfolio
               </a>
             </li>
-
             {/* Contact */}
             <li className="nav__item">
               <a
@@ -115,7 +110,7 @@ const Header = ({ theme, toggleTheme }) => {
           {/* Close class */}
           <i
             className="uil uil-times nav__close"
-            onClick={() => showMenu(!Toogle)}
+            onClick={() => showMenu(!Toogle)} id="close__logo"
           ></i>
         </div>
         {/* Toogle */}
@@ -127,5 +122,6 @@ const Header = ({ theme, toggleTheme }) => {
     </header>
   );
 };
-
 export default Header;
+
+
