@@ -109,27 +109,22 @@
 
 .qualification__button {
   position: relative;
-  /* display: inline-block; */
-  padding-bottom: 4px;
+  padding-bottom: 2px;
   color: var(--text-color);
-  /* color: red; */
   transition: color 0.3s ease;
   text-decoration: none;
 }
 
 .qualification__active {
   color: var(--content-text);
-  /* color: red; */
   transition: color 0.3s ease;
 }
 .qualification__button.qualification__active::after {
   content: "";
   position: absolute;
   bottom: 0;  /*keep inside padding*/
-   left: 0;
-  width: 60%;
+   left: 35.5px;
+  width: 50%;
   height: 2px;
   background-color: var(--subcontent-text);
-  /* border-radius: 2px;  */
-  /* background-color: red; */
 }
