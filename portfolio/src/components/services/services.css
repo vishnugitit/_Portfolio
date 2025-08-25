@@ -156,6 +156,7 @@
 #web,
 #qa {
   color: var(--text-color);
+  
 }
 #close {
   background-color: red;
