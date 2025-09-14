@@ -64,8 +64,10 @@ const Header = ({ theme, toggleTheme }) => {
                 <i className="uil uil-file-alt nav__icon"></i>Skills
               </a>
             </li>
+
             {/* Services */}
-            <li className="nav__item">
+
+            {/* <li className="nav__item">
               <a
                 href="#services"
                 onClick={() => setActiveNav("#services")}
@@ -77,7 +79,8 @@ const Header = ({ theme, toggleTheme }) => {
               >
                 <i className="uil uil-briefcase nav__icon"></i>Services
               </a>
-            </li>
+            </li> */}
+
             {/* Portfolio */}
             <li className="nav__item">
               <a

@@ -11,6 +11,7 @@ const Services = () => {
 
       <h2 className="section__title">Services</h2>
       <span className="section__subtitle">What i offer</span>
+
       {/* SET 1 */}
       <div className="services__container container grid">
         <div className="services__content">
@@ -21,8 +22,8 @@ const Services = () => {
               Software <br /> Developer
             </h3>
           </div>
-        <span className="services__button" onClick={() => toggleTab(1)}>
-              <button>View More</button>
+          <span className="services__button" onClick={() => toggleTab(1)}>
+            <button>View More</button>
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
           <div
@@ -33,15 +34,22 @@ const Services = () => {
             }
           >
             <div className="services__modal-content">
-              <i onClick={()=>toggleTab(0)} className="uil uil-times services__modal-close" id="close"></i>
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+                id="close"
+              ></i>
               <h3 className="services__modal-title">Software Developer</h3>
+
               {/* .services__modal-description */}
+
               <p className="services__modal-description">
                 Service with more than 3 years of experience.Providing quality
                 work to clients and companies.
               </p>
               <ul className="services__modal-services grid">
                 {/* .services__modal-info */}
+
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
@@ -76,7 +84,9 @@ const Services = () => {
             </div>
           </div>
         </div>
+
         {/* SET 2 */}
+
         <div className="services__content">
           <div>
             {/* .services__title */}
@@ -86,25 +96,34 @@ const Services = () => {
               Web <br /> Developer
             </h3>
           </div>
-          <span onClick={() => toggleTab(2)}className="services__button">
-           <button>View More</button> 
+          <span onClick={() => toggleTab(2)} className="services__button">
+            <button>View More</button>
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
-          <div className={
+          <div
+            className={
               toggleState === 2
                 ? "services__modal active-modal"
                 : "services__modal"
-            }>
+            }
+          >
             <div className="services__modal-content">
-              <i onClick={()=>toggleTab(0)} className="uil uil-times services__modal-close" id="close"></i>
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+                id="close"
+              ></i>
               <h3 className="services__modal-title">Web Developer</h3>
+
               {/* .services__modal-description */}
+
               <p className="services__modal-description">
                 Service with more than 3 years of experience.Providing quality
                 work to clients and companies.
               </p>
               <ul className="services__modal-services grid">
                 {/* .services__modal-info */}
+
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
@@ -145,30 +164,40 @@ const Services = () => {
         <div className="services__content">
           <div>
             {/* .services__title */}
+
             <i className="uil uil-edit services__icon" id="qa"></i>
             <h3 className="services__title">
               QA <br /> Engineer
             </h3>
           </div>
-          <span className="services__button"onClick={() => toggleTab(3)}>
+          <span className="services__button" onClick={() => toggleTab(3)}>
             <button>View More</button>
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
-          <div className={
+          <div
+            className={
               toggleState === 3
                 ? "services__modal active-modal"
                 : "services__modal"
-            }>
+            }
+          >
             <div className="services__modal-content">
-              <i onClick={()=>toggleTab(0)}className="uil uil-times services__modal-close" id="close"></i>
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+                id="close"
+              ></i>
               <h3 className="services__modal-title">QA Engineer</h3>
+
               {/* .services__modal-description */}
+
               <p className="services__modal-description">
                 Service with more than 3 years of experience.Providing quality
                 work to clients and companies.
               </p>
               <ul className="services__modal-services grid">
                 {/* .services__modal-info */}
+
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
