@@ -150,3 +150,9 @@ textarea {
   background-color: white;
   font-size: 2rem;
 }
+.social-button {
+  height: 1.5rem;
+  width: 6.5rem;
+  background-color: teal;
+  color: white;
+}

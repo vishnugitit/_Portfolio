@@ -69,7 +69,7 @@ const Contact = () => {
                 href="mailto:vishnu.jangam117@gmail.com"
                 className="contact__button"
               >
-                <button>
+                <button className="social-button">
                   Message
                   <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                 </button>
@@ -88,7 +88,7 @@ const Contact = () => {
                 href="https://api.whatsapp.com/send?phone=7989006946&text=Hello, more information!"
                 className="contact__button"
               >
-                <button>
+                <button className="social-button">
                   Message
                   <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                 </button>
@@ -106,7 +106,7 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/vishnu-vardhan-jangam-a04550258/"
                 className="contact__button"
               >
-                <button>
+                <button className="social-button">
                   Connect
                   <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                 </button>
